@@ -1,0 +1,38 @@
+/* * means we are selecting */
+/* all elements in css*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    margin: 0.5 rem;
+}
+nav{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 1rem auto 1rem;
+    max-width: 600px;
+    line-height: 5;
+    font-size: 1.5rem;
+}
+nav ul li{
+    list-style-type: none;
+    border: 2px solid black;
+}
+nav ul li a{
+    color: #585c63;
+    text-decoration: none;
+    display: block;
+    
+}
+h1{
+    background-color: #f0dc07;
+}
+nav ul li a:hover{
+    background-color: #1c1c1a;
+    color: #c9c9b9;
+}
